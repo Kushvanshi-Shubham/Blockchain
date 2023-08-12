@@ -11,7 +11,7 @@ contract SpaceBar is ERC721, ERC721URIStorage, Ownable {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("SpaceBar", "SBR") {}
+    constructor() ERC721("SpaceBear", "SBR") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return
